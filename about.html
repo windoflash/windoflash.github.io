@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>About Windo Flash</title>
+
+<meta
+name="description"
+content="Learn about Windo Flash, a technology business creating mobile applications and digital products.">
+
+<style>
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap'
+);
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#030611;
+
+color:#f5f7ff;
+
+font-family:Inter,Arial,sans-serif;
+
+line-height:1.7;
+
+overflow-x:hidden;
+
+}
+
+a{
+color:inherit;
+text-decoration:none;
+}
+
+
+/* BACKGROUND */
+
+#bg{
+
+position:fixed;
+
+inset:0;
+
+width:100%;
+height:100%;
+
+z-index:-5;
+
+}
+
+.grid{
+
+position:fixed;
+
+inset:0;
+
+z-index:-4;
+
+background-image:
+
+linear-gradient(
+rgba(70,130,255,.05) 1px,
+transparent 1px
+),
+
+linear-gradient(
+90deg,
+rgba(70,130,255,.05) 1px,
+transparent 1px
+);
+
+background-size:60px 60px;
+
+}
+
+
+/* NAV */
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+z-index:20;
+
+background:
+rgba(3,6,17,.75);
+
+backdrop-filter:
+blur(20px);
+
+border-bottom:
+1px solid
+rgba(120,150,255,.12);
+
+}
+
+.nav-inner{
+
+max-width:1200px;
+
+height:74px;
+
+margin:auto;
+
+padding:0 25px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+.logo{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+font-weight:800;
+
+letter-spacing:.7px;
+
+}
+
+.logo-icon{
+
+width:38px;
+
+height:38px;
+
+border-radius:11px;
+
+display:grid;
+
+place-items:center;
+
+background:
+linear-gradient(
+135deg,
+#713cff,
+#168fff,
+#38e8ff
+);
+
+box-shadow:
+0 0 25px
+rgba(80,90,255,.4);
+
+}
+
+.logo span{
+
+color:#8b98b3;
+
+font-weight:400;
+
+}
+
+.nav-links{
+
+display:flex;
+
+gap:25px;
+
+}
+
+.nav-links a{
+
+color:#8995ad;
+
+font-size:13px;
+
+}
+
+.nav-links a:hover{
+
+color:#fff;
+
+}
+
+
+/* CONTENT */
+
+.container{
+
+max-width:1000px;
+
+margin:auto;
+
+padding:
+150px 25px
+100px;
+
+}
+
+.label{
+
+color:#42ddff;
+
+font-size:10px;
+
+font-weight:800;
+
+letter-spacing:3px;
+
+}
+
+h1{
+
+font-size:
+clamp(48px,7vw,82px);
+
+line-height:1;
+
+letter-spacing:-4px;
+
+margin-top:15px;
+
+}
+
+.gradient{
+
+background:
+linear-gradient(
+90deg,
+#fff,
+#55ddff,
+#8a5cff
+);
+
+-webkit-background-clip:text;
+
+color:transparent;
+
+}
+
+.intro{
+
+max-width:750px;
+
+margin-top:25px;
+
+font-size:18px;
+
+color:#929db5;
+
+line-height:1.8;
+
+}
+
+
+/* CARDS */
+
+.cards{
+
+display:grid;
+
+grid-template-columns:
+repeat(3,1fr);
+
+gap:18px;
+
+margin-top:70px;
+
+}
+
+.card{
+
+padding:30px;
+
+min-height:250px;
+
+border:
+1px solid
+rgba(110,145,255,.16);
+
+border-radius:20px;
+
+background:
+rgba(10,16,34,.65);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:
+translateY(-7px);
+
+border-color:
+rgba(75,210,255,.4);
+
+}
+
+.number{
+
+font:
+11px "Space Mono";
+
+color:#53617a;
+
+}
+
+.icon{
+
+margin-top:35px;
+
+width:50px;
+
+height:50px;
+
+display:grid;
+
+place-items:center;
+
+border-radius:14px;
+
+background:
+rgba(70,140,255,.09);
+
+color:#5de1ff;
+
+font-size:22px;
+
+}
+
+.card h2{
+
+font-size:21px;
+
+margin-top:20px;
+
+}
+
+.card p{
+
+font-size:14px;
+
+color:#7f8ba3;
+
+margin-top:8px;
+
+}
+
+
+/* COMPANY */
+
+.company{
+
+margin-top:80px;
+
+padding:45px;
+
+border:
+1px solid
+rgba(110,145,255,.16);
+
+border-radius:22px;
+
+background:
+linear-gradient(
+130deg,
+rgba(16,25,53,.65),
+rgba(7,11,25,.65)
+);
+
+}
+
+.company h2{
+
+font-size:35px;
+
+margin-bottom:15px;
+
+}
+
+.company p{
+
+color:#929db5;
+
+margin-top:12px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+border-top:
+1px solid
+rgba(255,255,255,.07);
+
+padding:
+30px 25px;
+
+color:#59667e;
+
+font-size:12px;
+
+}
+
+.footer-inner{
+
+max-width:1200px;
+
+margin:auto;
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+}
+
+@media(max-width:750px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
+
+.company{
+
+padding:30px 22px;
+
+}
+
+.footer-inner{
+
+flex-direction:column;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<canvas id="bg"></canvas>
+
+<div class="grid"></div>
+
+
+<nav>
+
+<div class="nav-inner">
+
+<a href="index.html" class="logo">
+
+<div class="logo-icon">
+WF
+</div>
+
+WINDO <span>FLASH</span>
+
+</a>
+
+
+<div class="nav-links">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="index.html#apps">
+Apps
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+</div>
+
+</nav>
+
+
+<main>
+
+<div class="container">
+
+
+<div class="label">
+ABOUT WINDO FLASH
+</div>
+
+
+<h1>
+
+Building
+
+<span class="gradient">
+useful technology.
+</span>
+
+</h1>
+
+
+<p class="intro">
+
+Windo Flash is a technology business focused
+on creating mobile applications, digital products
+and modern software experiences.
+
+</p>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="number">
+01
+</div>
+
+<div class="icon">
+⌘
+</div>
+
+<h2>
+Mobile Applications
+</h2>
+
+<p>
+
+We develop mobile applications
+designed around practical user
+experiences.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="number">
+02
+</div>
+
+<div class="icon">
+∑
+</div>
+
+<h2>
+Digital Products
+</h2>
+
+<p>
+
+We explore and develop digital
+products that solve useful
+everyday problems.
+
+</p>
+
+</div>
+
+
+<div class="card">
+
+<div class="number">
+03
+</div>
+
+<div class="icon">
+✦
+</div>
+
+<h2>
+Innovation
+</h2>
+
+<p>
+
+We continuously explore modern
+software, AI, web and mobile
+technologies.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+<div class="company">
+
+<div class="label">
+OUR APPROACH
+</div>
+
+<h2>
+Simple ideas. Powerful technology.
+</h2>
+
+<p>
+
+We believe good technology should
+be useful, understandable and
+accessible.
+
+</p>
+
+<p>
+
+Windo Flash focuses on building
+products with thoughtful design,
+reliable engineering and a
+long-term product mindset.
+
+</p>
+
+</div>
+
+
+</div>
+
+</main>
+
+
+<footer>
+
+<div class="footer-inner">
+
+<span>
+© 2026 Windo Flash
+</span>
+
+<span>
+Kerala, India
+</span>
+
+<a href="privacy.html">
+Privacy Policy
+</a>
+
+</div>
+
+</footer>
+
+
+<script>
+
+/* LIVE BACKGROUND */
+
+const canvas =
+document.getElementById("bg");
+
+const ctx =
+canvas.getContext("2d");
+
+let W;
+let H;
+
+let particles=[];
+
+function resize(){
+
+W=canvas.width=
+window.innerWidth;
+
+H=canvas.height=
+window.innerHeight;
+
+particles=[];
+
+for(
+let i=0;
+i<70;
+i++
+){
+
+particles.push({
+
+x:Math.random()*W,
+
+y:Math.random()*H,
+
+vx:(Math.random()-.5)*.2,
+
+vy:(Math.random()-.5)*.2,
+
+r:Math.random()*1.5+.3
+
+});
+
+}
+
+}
+
+function animate(){
+
+ctx.clearRect(
+0,0,W,H
+);
+
+particles.forEach(p=>{
+
+p.x+=p.vx;
+
+p.y+=p.vy;
+
+if(p.x<0)p.x=W;
+
+if(p.x>W)p.x=0;
+
+if(p.y<0)p.y=H;
+
+if(p.y>H)p.y=0;
+
+ctx.beginPath();
+
+ctx.fillStyle=
+"rgba(70,190,255,.35)";
+
+ctx.arc(
+p.x,
+p.y,
+p.r,
+0,
+Math.PI*2
+);
+
+ctx.fill();
+
+});
+
+requestAnimationFrame(
+animate
+);
+
+}
+
+window.addEventListener(
+"resize",
+resize
+);
+
+resize();
+
+animate();
+
+</script>
+
+</body>
+</html>
