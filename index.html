@@ -2,450 +2,760 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
 
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
-  >
+  />
 
   <meta
     name="description"
-    content="Windo Flash — App development team creating useful, simple and engaging mobile applications."
-  >
+    content="Windo Flash — independent app development team creating useful, simple and engaging mobile applications."
+  />
 
   <meta
     name="theme-color"
-    content="#101010"
-  >
+    content="#06110b"
+  />
+
+  <meta
+    name="color-scheme"
+    content="dark"
+  />
 
   <title>Windo Flash — App Development Team</title>
 
   <link
     rel="stylesheet"
     href="style.css"
-  >
-
+  />
 </head>
 
 
 <body>
 
-  <main class="container">
+  <!-- =========================================
+       3D SPIDER NETWORK BACKGROUND
+  ========================================== -->
 
+  <canvas id="networkCanvas"></canvas>
 
-    <!-- =========================
-         INTRODUCTION
-    ========================== -->
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <div class="background-glow glow-three"></div>
 
-    <section class="intro">
 
-      <h1>
-        Windo Flash —
-        <br>
-        App development team
-      </h1>
+  <!-- =========================================
+       HEADER
+  ========================================== -->
 
+  <header class="site-header">
 
-      <p>
-
-        We are an independent app development team focused on
-        creating useful, simple, and enjoyable mobile experiences.
-        Our goal is to combine creativity, technology, and real-world
-        ideas to build applications that people can use in their
-        everyday lives.
-
-      </p>
-
-
-      <p>
-
-        From productivity tools and utilities to educational and
-        lifestyle applications, we build products with a strong focus
-        on clean design, practical features, performance, and
-        simplicity.
-
-      </p>
-
-
-      <p>
-
-        Every application starts with an idea. We turn those ideas
-        into carefully designed digital experiences and continue
-        improving them through updates, feedback, and new features.
-
-      </p>
-
-
-      <p>
-
-        Our mission is simple — build useful apps, make technology
-        easier to use, and create experiences that people enjoy
-        coming back to.
-
-      </p>
-
-    </section>
-
-
-
-    <!-- =========================
-         DEEN PULSE
-    ========================== -->
-
-    <section class="apps">
-
-
-      <article class="app-card">
-
-
-        <!-- APP IMAGE -->
-
-        <div class="app-image">
-
-          <img
-            src="assets/deen-pulse.png"
-            alt="Deen Pulse"
-          >
-
-        </div>
-
-
-
-        <!-- APP NAME -->
-
-        <h2>
-          Islamic Quiz 2026 - Deen Pulse
-        </h2>
-
-
-
-        <!-- DESCRIPTION -->
-
-        <p class="app-description">
-
-          An educational Islamic app designed to help you
-          test your knowledge, learn about Islam, and stay
-          connected with your faith through useful everyday
-          Islamic tools.
-
-        </p>
-
-
-
-        <!-- FEATURES -->
-
-        <div class="features">
-
-          <p>
-            🧠 Interactive Islamic Quiz
-          </p>
-
-          <p>
-            🕌 Location-based Prayer Times
-          </p>
-
-          <p>
-            📿 Digital Tasbeeh Counter
-          </p>
-
-          <p>
-            📚 Educational Islamic Content
-          </p>
-
-          <p>
-            🌙 More Islamic features coming
-          </p>
-
-        </div>
-
-
-
-        <!-- STORE BUTTONS -->
-
-        <div class="store-buttons">
-
-
-          <!-- APP STORE -->
-
-          <a
-            class="store-button disabled"
-            href="#"
-            aria-label="App Store"
-          >
-
-            <span class="apple-logo">
-              
-            </span>
-
-            <span>
-
-              <small>
-                Download on the
-              </small>
-
-              App Store
-
-            </span>
-
-          </a>
-
-
-
-          <!-- GOOGLE PLAY -->
-
-          <a
-            class="store-button"
-            href="https://play.google.com/store/apps/details?id=com.windoflash.ramadan"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Google Play"
-          >
-
-            <span class="play-logo">
-              ▶
-            </span>
-
-            <span>
-
-              <small>
-                GET IT ON
-              </small>
-
-              Google Play
-
-            </span>
-
-          </a>
-
-
-        </div>
-
-
-      </article>
-
-
-    </section>
-
-
-
-    <!-- =========================
-         ABOUT WINDO FLASH
-    ========================== -->
-
-    <section class="text-section">
-
-
-      <h2>
-        Building apps with purpose
-      </h2>
-
-
-      <p>
-
-        At Windo Flash, we believe a good application does
-        more than simply work. It should feel intuitive,
-        look clean, respond quickly, and solve a real problem.
-
-      </p>
-
-
-      <p>
-
-        We focus on creating mobile applications that are
-        straightforward and accessible while still offering
-        useful features and a polished experience.
-
-      </p>
-
-
-    </section>
-
-
-
-    <!-- =========================
-         OUR APPROACH
-    ========================== -->
-
-    <section class="text-section">
-
-
-      <h2>
-        Simple ideas. Useful products.
-      </h2>
-
-
-      <p>
-
-        We start with a simple idea and gradually turn it
-        into a complete product. Research, design,
-        development, testing, and continuous improvement
-        are all part of our process.
-
-      </p>
-
-
-      <p>
-
-        Instead of adding unnecessary complexity, we try to
-        keep the experience focused on what users actually
-        need.
-
-      </p>
-
-
-    </section>
-
-
-
-    <!-- =========================
-         DEEN PULSE SECTION
-    ========================== -->
-
-    <section class="text-section">
-
-
-      <h2>
-        Deen Pulse
-      </h2>
-
-
-      <p>
-
-        Deen Pulse is one of our Islamic applications,
-        created to bring learning and useful everyday Islamic
-        tools together in a simple mobile experience.
-
-      </p>
-
-
-      <p>
-
-        The application includes an interactive Islamic quiz
-        covering Islamic knowledge, Quran-related questions,
-        Hadith, Prophets and their stories, Seerah and
-        Islamic history.
-
-      </p>
-
-
-      <p>
-
-        It also provides location-based daily prayer times
-        and a digital Tasbeeh counter for tracking Dhikr.
-
-      </p>
-
-
-      <p>
-
-        We continue to improve Deen Pulse with additional
-        features, improvements, and updates.
-
-      </p>
-
-
-    </section>
-
-
-
-    <!-- =========================
-         CONTINUOUS DEVELOPMENT
-    ========================== -->
-
-    <section class="text-section">
-
-
-      <h2>
-        Always improving
-      </h2>
-
-
-      <p>
-
-        Our applications are continuously improved based on
-        testing, feedback, new ideas, and changing user
-        needs.
-
-      </p>
-
-
-      <p>
-
-        We believe the first release is only the beginning.
-        Every update is an opportunity to make the product
-        faster, simpler, and more useful.
-
-      </p>
-
-
-    </section>
-
-
-
-    <!-- =========================
-         CONTACT
-    ========================== -->
-
-    <section class="contact">
-
-
-      <h2>
-        Want to talk?
-      </h2>
-
-
-      <p>
-
-        Have an idea, feedback, or a question?
-
-      </p>
-
+    <div class="header-inner">
 
       <a
-        href="mailto:windoflash@gmail.com"
+        href="#top"
+        class="brand"
       >
-        windoflash@gmail.com
+
+        <div class="brand-mark">
+          WF
+        </div>
+
+        <div class="brand-name">
+          WINDO FLASH
+        </div>
+
       </a>
 
 
-    </section>
+      <nav class="navigation">
+
+        <a href="#apps">
+          Apps
+        </a>
+
+        <a href="#about">
+          About
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
 
 
+  <!-- =========================================
+       MAIN
+  ========================================== -->
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+  <main
+    class="container"
+    id="top"
+  >
 
-    <footer>
+
+    <!-- =====================================
+         HERO
+    ====================================== -->
+
+    <section class="hero-section">
+
+      <div class="hero-badge">
+        <span class="status-dot"></span>
+        Independent App Development
+      </div>
 
 
-      <p>
-        © <span id="year"></span> Windo Flash.
-        All rights reserved.
+      <h1>
+
+        We build
+        <span class="gradient-text">
+          useful apps.
+        </span>
+
+      </h1>
+
+
+      <p class="hero-description">
+
+        Windo Flash is an independent app development team
+        focused on creating useful, simple, and enjoyable
+        mobile experiences.
+
       </p>
 
 
-      <div class="footer-links">
+      <div class="hero-actions">
 
-        <a href="#">
-          Privacy Policy
+        <a
+          href="#apps"
+          class="primary-button"
+        >
+          Explore Our Apps
+          <span>↓</span>
         </a>
 
 
-        <a href="#">
-          Terms and Conditions
+        <a
+          href="#contact"
+          class="secondary-button"
+        >
+          Contact Us
         </a>
 
       </div>
 
 
-    </footer>
+      <div class="hero-stats">
+
+        <div class="stat">
+
+          <strong>
+            2+
+          </strong>
+
+          <span>
+            Applications
+          </span>
+
+        </div>
+
+
+        <div class="stat">
+
+          <strong>
+            Mobile
+          </strong>
+
+          <span>
+            First
+          </span>
+
+        </div>
+
+
+        <div class="stat">
+
+          <strong>
+            Windo
+          </strong>
+
+          <span>
+            Flash
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         APPS
+    ====================================== -->
+
+    <section
+      class="section"
+      id="apps"
+    >
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="section-label">
+            OUR APPLICATIONS
+          </span>
+
+          <h2>
+            Built with purpose.
+          </h2>
+
+        </div>
+
+
+        <p>
+          Useful products designed around real ideas,
+          practical features, and simple experiences.
+        </p>
+
+      </div>
+
+
+      <div class="apps-grid">
+
+
+        <!-- =================================
+             DEEN PULSE
+        ================================== -->
+
+        <article
+          class="app-card tilt-card"
+          data-tilt
+        >
+
+          <div class="card-glow"></div>
+
+          <div class="card-top-line"></div>
+
+
+          <div class="app-preview">
+
+            <div class="preview-glow"></div>
+
+            <img
+              src="assets/deen-pulse.png"
+              alt="Islamic Quiz 2026 - Deen Pulse"
+              loading="lazy"
+            />
+
+          </div>
+
+
+          <div class="app-content">
+
+            <div class="app-category">
+              ISLAMIC EDUCATION
+            </div>
+
+
+            <h3>
+              Islamic Quiz 2026 -
+              <span>Deen Pulse</span>
+            </h3>
+
+
+            <p class="app-description">
+
+              An educational Islamic app designed to help
+              users test their knowledge, learn about Islam,
+              and stay connected with their faith through
+              useful everyday Islamic tools.
+
+            </p>
+
+
+            <div class="feature-list">
+
+              <div class="feature-item">
+                <span class="feature-icon">🧠</span>
+                <span>Interactive Islamic Quiz</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">🕌</span>
+                <span>Location-based Prayer Times</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">📿</span>
+                <span>Digital Tasbeeh Counter</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">📚</span>
+                <span>Educational Islamic Content</span>
+              </div>
+
+            </div>
+
+
+            <div class="store-buttons">
+
+              <a
+                class="store-button"
+                href="https://play.google.com/store/apps/details?id=com.windoflash.ramadan"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+
+                <span class="store-icon play-icon">
+                  ▶
+                </span>
+
+                <span class="store-text">
+
+                  <small>
+                    GET IT ON
+                  </small>
+
+                  Google Play
+
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- =================================
+             AARU KODUKKUM
+        ================================== -->
+
+        <article
+          class="app-card tilt-card"
+          data-tilt
+        >
+
+          <div class="card-glow"></div>
+
+          <div class="card-top-line"></div>
+
+
+          <div class="app-preview tea-preview">
+
+            <div class="preview-orb"></div>
+
+            <div class="tea-cup">
+
+              <div class="tea-steam steam-one"></div>
+              <div class="tea-steam steam-two"></div>
+              <div class="tea-steam steam-three"></div>
+
+              <div class="cup-body">
+                ☕
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="app-content">
+
+            <div class="app-category">
+              CASUAL GAME
+            </div>
+
+
+            <h3>
+              Aaru Kodukkum -
+              <span>Who Pays?</span>
+            </h3>
+
+
+            <p class="app-description">
+
+              A fun group game for tea shops, friends,
+              classmates, and casual gatherings. Let the
+              app randomly decide who pays for the tea.
+
+            </p>
+
+
+            <div class="feature-list">
+
+              <div class="feature-item">
+                <span class="feature-icon">☕</span>
+                <span>Tea Sponsor Randomizer</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">👆</span>
+                <span>Finger Put & Check</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">🎯</span>
+                <span>Multiple Game Modes</span>
+              </div>
+
+              <div class="feature-item">
+                <span class="feature-icon">🎉</span>
+                <span>Fun Group Experience</span>
+              </div>
+
+            </div>
+
+
+            <div class="store-buttons">
+
+              <a
+                class="store-button"
+                href="#"
+                aria-label="Aaru Kodukkum Google Play"
+              >
+
+                <span class="store-icon play-icon">
+                  ▶
+                </span>
+
+                <span class="store-text">
+
+                  <small>
+                    COMING SOON
+                  </small>
+
+                  Google Play
+
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         ABOUT
+    ====================================== -->
+
+    <section
+      class="section split-section"
+      id="about"
+    >
+
+      <div class="section-heading single">
+
+        <span class="section-label">
+          ABOUT WINDO FLASH
+        </span>
+
+        <h2>
+          Simple ideas.
+          <span class="gradient-text">
+            Useful products.
+          </span>
+        </h2>
+
+        <p>
+
+          We are an independent app development team
+          focused on creating practical mobile experiences
+          with clean design, useful features, strong
+          performance, and simplicity.
+
+        </p>
+
+        <p>
+
+          Every application starts with an idea. We turn
+          those ideas into carefully designed digital
+          experiences and continue improving them through
+          updates, testing, feedback, and new features.
+
+        </p>
+
+      </div>
+
+
+      <div class="vision-card">
+
+        <div class="vision-number">
+          01
+        </div>
+
+        <h3>
+          Think simple.
+        </h3>
+
+        <p>
+
+          We avoid unnecessary complexity and focus on
+          the features people actually need.
+
+        </p>
+
+      </div>
+
+
+      <div class="vision-card">
+
+        <div class="vision-number">
+          02
+        </div>
+
+        <h3>
+          Build useful.
+        </h3>
+
+        <p>
+
+          Every product starts with a real idea and a
+          practical purpose.
+
+        </p>
+
+      </div>
+
+
+      <div class="vision-card">
+
+        <div class="vision-number">
+          03
+        </div>
+
+        <h3>
+          Keep improving.
+        </h3>
+
+        <p>
+
+          The first release is only the beginning.
+          Every update is another opportunity to improve.
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         DEEN PULSE
+    ====================================== -->
+
+    <section class="detail-section">
+
+      <div class="detail-label">
+        DEEN PULSE
+      </div>
+
+
+      <h2>
+        Islamic learning,
+        <span class="gradient-text">
+          made simple.
+        </span>
+      </h2>
+
+
+      <p>
+
+        Deen Pulse brings Islamic learning and useful
+        everyday tools together in one mobile experience.
+
+      </p>
+
+
+      <div class="detail-grid">
+
+        <div class="detail-item">
+
+          <span>
+            🧠
+          </span>
+
+          <div>
+
+            <strong>
+              Islamic Quiz
+            </strong>
+
+            <p>
+              Islamic knowledge, Quran-related questions,
+              Hadith, Prophets, Seerah, and Islamic history.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="detail-item">
+
+          <span>
+            🕌
+          </span>
+
+          <div>
+
+            <strong>
+              Prayer Times
+            </strong>
+
+            <p>
+              Location-based daily prayer times.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="detail-item">
+
+          <span>
+            📿
+          </span>
+
+          <div>
+
+            <strong>
+              Tasbeeh
+            </strong>
+
+            <p>
+              A simple digital counter for Dhikr.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CONTACT
+    ====================================== -->
+
+    <section
+      class="contact-section"
+      id="contact"
+    >
+
+      <div class="contact-glow"></div>
+
+
+      <span class="section-label">
+        CONTACT
+      </span>
+
+
+      <h2>
+        Have an idea?
+      </h2>
+
+
+      <p>
+        Feedback, questions, or just want to talk?
+      </p>
+
+
+      <a
+        class="contact-email"
+        href="mailto:windoflash@gmail.com"
+      >
+        windoflash@gmail.com
+      </a>
+
+    </section>
 
 
   </main>
 
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer class="site-footer">
+
+    <div class="footer-inner">
+
+      <div>
+
+        <div class="footer-brand">
+          WINDO FLASH
+        </div>
+
+        <p>
+          Building useful mobile experiences.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://windoflash.online/islamic_quiz_2026_deen_pulse_privacy_policy.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Privacy Policy
+        </a>
+
+
+        <a
+          href="terms.html"
+        >
+          Terms & Conditions
+        </a>
+
+
+        <a
+          href="contact.html"
+        >
+          Contact
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+      © <span id="year"></span>
+      Windo Flash. All rights reserved.
+
+    </div>
+
+  </footer>
 
 
   <script src="script.js"></script>
