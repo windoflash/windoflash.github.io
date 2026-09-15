@@ -1,1 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
+  <title>Privacy Policy - Islamic Quiz 2026 – Deen Pulse</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for Islamic Quiz 2026 – Deen Pulse, developed by Windo Flash."
+  />
+
+  <style>
+    :root {
+      --background: #06110b;
+      --background-soft: #0a1710;
+      --card: #101c15;
+      --card-light: #17271d;
+
+      --green: #39d98a;
+      --green-bright: #62e7a4;
+      --green-dark: #1e9b60;
+
+      --text: #f4fff8;
+      --muted: #a9bdb2;
+
+      --border: rgba(57, 217, 138, 0.20);
+      --border-strong: rgba(57, 217, 138, 0.34);
+
+      --link: #62e7a4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background:
+        radial-gradient(
+          circle at top center,
+          rgba(57, 217, 138, 0.08),
+          transparent 32%
+        ),
+        var(--background);
+
+      color: var(--text);
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 70px;
+    }
+
+    /* HERO */
+
+    .hero {
+      background:
+        radial-gradient(
+          circle at top center,
+          rgba(57, 217, 138, 0.16),
+          transparent 48%
+        ),
+        linear-gradient(
+          180deg,
+          #102219 0%,
+          #0a1510 100%
+        );
+
+      border: 1px solid var(--border-strong);
+
+      border-radius: 24px;
+
+      padding: 36px 28px;
+
+      text-align: center;
+
+      margin-bottom: 22px;
+
+      box-shadow:
+        0 18px 50px rgba(0, 0, 0, 0.40),
+        0 0 45px rgba(57, 217, 138, 0.05);
+    }
+
+    .logo {
+      width: 78px;
+      height: 78px;
+
+      margin: 0 auto 18px;
+
+      border-radius: 22px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background:
+        rgba(57, 217, 138, 0.10);
+
+      border:
+        1px solid rgba(57, 217, 138, 0.30);
+
+      box-shadow:
+        0 0 28px rgba(57, 217, 138, 0.08);
+
+      font-size: 36px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+
+      color: var(--green-bright);
+
+      font-size: clamp(28px, 5vw, 44px);
+
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0 auto;
+
+      color: var(--muted);
+
+      max-width: 720px;
+
+      font-size: 16px;
+    }
+
+    .updated {
+      margin-top: 16px;
+
+      color: #7f9488;
+
+      font-size: 13px;
+    }
+
+    /* IDENTITY */
+
+    .identity {
+      margin-top: 24px;
+
+      padding: 18px;
+
+      background:
+        rgba(57, 217, 138, 0.055);
+
+      border:
+        1px solid rgba(57, 217, 138, 0.18);
+
+      border-radius: 16px;
+
+      text-align: left;
+    }
+
+    .identity p {
+      margin: 7px 0;
+    }
+
+    .identity strong {
+      display: inline-block;
+
+      min-width: 150px;
+
+      color: #ffffff;
+    }
+
+    /* CARDS */
+
+    .card {
+      background:
+        linear-gradient(
+          180deg,
+          #101c15 0%,
+          #0d1812 100%
+        );
+
+      border:
+        1px solid var(--border);
+
+      border-radius: 20px;
+
+      padding: 28px;
+
+      margin-top: 18px;
+
+      box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.16);
+    }
+
+    h2 {
+      color: var(--green-bright);
+
+      font-size: 23px;
+
+      margin: 0 0 12px;
+    }
+
+    h3 {
+      color: #ffffff;
+
+      font-size: 17px;
+
+      margin: 22px 0 8px;
+    }
+
+    p {
+      margin: 0 0 14px;
+
+      color: #d8e5de;
+    }
+
+    ul {
+      margin: 8px 0 16px 22px;
+
+      padding: 0;
+
+      color: #d8e5de;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    a {
+      color: var(--link);
+
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+
+      color: var(--green-bright);
+    }
+
+    /* HIGHLIGHT */
+
+    .highlight {
+      background:
+        linear-gradient(
+          90deg,
+          rgba(57, 217, 138, 0.075),
+          rgba(57, 217, 138, 0.025)
+        );
+
+      border-left:
+        4px solid var(--green);
+
+      border-radius: 12px;
+
+      padding: 16px 18px;
+
+      margin: 18px 0;
+    }
+
+    /* WARNING */
+
+    .warning {
+      background:
+        rgba(57, 217, 138, 0.06);
+
+      border:
+        1px solid rgba(57, 217, 138, 0.22);
+
+      border-radius: 12px;
+
+      padding: 16px 18px;
+
+      margin: 18px 0;
+
+      color: #dcebe3;
+    }
+
+    /* FOOTER */
+
+    .footer {
+      text-align: center;
+
+      padding-top: 26px;
+
+      color: #708177;
+
+      font-size: 13px;
+    }
+
+    .footer strong {
+      color: var(--green-bright);
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 640px) {
+
+      .container {
+        width: min(100% - 20px, 920px);
+
+        padding-top: 24px;
+      }
+
+      .hero {
+        padding: 28px 18px;
+
+        border-radius: 20px;
+      }
+
+      .card {
+        padding: 22px 18px;
+
+        border-radius: 18px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      .identity strong {
+        min-width: 0;
+
+        display: block;
+
+        margin-bottom: 2px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- HEADER -->
+    <section class="hero">
+
+      <div class="logo">☪</div>
+
+      <h1>Privacy Policy</h1>
+
+      <p class="subtitle">
+        Privacy Policy for
+        <strong>Islamic Quiz 2026 – Deen Pulse</strong>
+      </p>
+
+      <div class="updated">
+        Last updated: September 15, 2026
+      </div>
+
+      <!-- APP / DEVELOPER DETAILS -->
+      <div class="identity">
+
+        <p>
+          <strong>App Name:</strong>
+          Islamic Quiz 2026 – Deen Pulse
+        </p>
+
+        <p>
+          <strong>Developer:</strong>
+          Windo Flash
+        </p>
+
+        <p>
+          <strong>Package Name:</strong>
+          com.windoflash.ramadan
+        </p>
+
+        <p>
+          <strong>Privacy Contact:</strong>
+          <a href="mailto:windoflash@gmail.com">
+            windoflash@gmail.com
+          </a>
+        </p>
+
+        <p>
+          <strong>Developer Address:</strong><br />
+          269-A, Painat House, Panangattoor, Tanur, Panangattoor Road<br />
+          Malappuram - 676302<br />
+          India (IN)
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- 1 -->
+    <section class="card">
+
+      <h2>1. Introduction</h2>
+
+      <p>
+        This Privacy Policy applies to the mobile application
+        <strong>Islamic Quiz 2026 – Deen Pulse</strong>,
+        developed and published by
+        <strong>Windo Flash</strong>.
+      </p>
+
+      <p>
+        This Privacy Policy explains how information may be accessed,
+        collected, used, stored, and shared when you use the Deen Pulse
+        application.
+      </p>
+
+      <p>
+        We aim to keep the application useful, transparent, and respectful
+        of user privacy.
+      </p>
+
+    </section>
+
+
+    <!-- 2 -->
+    <section class="card">
+
+      <h2>2. Information We May Access or Collect</h2>
+
+      <p>
+        The information handled by Deen Pulse depends on the features you
+        use and the permissions you grant.
+      </p>
+
+      <h3>2.1 Location Information</h3>
+
+      <p>
+        Deen Pulse may request access to your device's location to provide
+        location-based prayer times and related functionality.
+      </p>
+
+      <p>
+        Location information is used to determine appropriate prayer times
+        for your selected location.
+      </p>
+
+      <p>
+        Location access is not required for features that do not need
+        location-based prayer calculations.
+      </p>
+
+      <div class="warning">
+
+        <strong>Important:</strong>
+
+        If you allow location access, the application may process location
+        information such as geographic coordinates for prayer-time
+        calculations. Depending on the feature implementation, this
+        information may be transmitted to the relevant prayer-time service
+        to obtain calculated prayer times.
+
+      </div>
+
+      <h3>2.2 Information Entered by the User</h3>
+
+      <p>
+        Some features may allow you to enter information such as tracker
+        values, preferences, or other content used by the application.
+      </p>
+
+      <p>
+        Such information is intended to support the application's
+        functionality and may be stored locally on your device.
+      </p>
+
+    </section>
+
+
+    <!-- 3 -->
+    <section class="card">
+
+      <h2>3. App Features</h2>
+
+      <p>
+        Depending on the version of the application, Deen Pulse may include
+        features such as:
+      </p>
+
+      <ul>
+        <li>Islamic quizzes and educational content</li>
+        <li>Prayer times</li>
+        <li>Location-based prayer-time calculations</li>
+        <li>Tasbeeh / digital counter</li>
+        <li>Duas and Islamic content</li>
+        <li>Deen tracking and personal progress features</li>
+        <li>Notifications and reminders</li>
+        <li>Other Islamic utility features introduced in future versions</li>
+      </ul>
+
+    </section>
+
+
+    <!-- 4 -->
+    <section class="card">
+
+      <h2>4. Prayer Times and Third-Party Services</h2>
+
+      <p>
+        Deen Pulse may use third-party prayer-time services, including
+        <strong>AlAdhan</strong>, to calculate or provide prayer times.
+      </p>
+
+      <p>
+        When a prayer-time feature requires your location, relevant
+        location information may be used to request prayer-time
+        calculations.
+      </p>
+
+      <p>
+        Third-party services may process information according to their own
+        privacy policies and terms.
+      </p>
+
+      <p>
+        Users should review the privacy practices of third-party services
+        used by the application where appropriate.
+      </p>
+
+    </section>
+
+
+    <!-- 5 -->
+    <section class="card">
+
+      <h2>5. Local Storage</h2>
+
+      <p>
+        Certain application settings, preferences, counters, tracker
+        information, or other functionality-related data may be stored
+        locally on your device.
+      </p>
+
+      <p>
+        Local storage may be used to preserve your preferences and selected
+        application state between sessions.
+      </p>
+
+      <p>
+        Local data generally remains on your device unless you clear the
+        application's data, uninstall the application, or a specific
+        feature states otherwise.
+      </p>
+
+    </section>
+
+
+    <!-- 6 -->
+    <section class="card">
+
+      <h2>6. Notifications</h2>
+
+      <p>
+        Deen Pulse may provide notifications or reminders for supported
+        features, such as prayer-related reminders or other app
+        notifications.
+      </p>
+
+      <p>
+        Notification permissions are controlled by the user through Android
+        system settings and, where applicable, within the application.
+      </p>
+
+      <p>
+        The app does not require notification permission for unrelated
+        features.
+      </p>
+
+    </section>
+
+
+    <!-- 7 -->
+    <section class="card">
+
+      <h2>7. Text-to-Speech</h2>
+
+      <p>
+        Deen Pulse may use the device's text-to-speech functionality for
+        supported features.
+      </p>
+
+      <p>
+        Text-to-speech functionality is intended to process text locally
+        through the device's available speech service where supported.
+      </p>
+
+    </section>
+
+
+    <!-- 8 -->
+    <section class="card">
+
+      <h2>8. Advertising</h2>
+
+      <p>
+        If advertisements are included in a particular version of Deen
+        Pulse, the application may use third-party advertising services,
+        such as <strong>Google AdMob</strong>.
+      </p>
+
+      <p>
+        Advertising providers may collect or process information such as
+        advertising identifiers, device information, approximate usage
+        information, diagnostic information, or information necessary to
+        provide and measure advertisements, subject to their own policies.
+      </p>
+
+      <p>
+        The actual advertising and data practices applicable to a specific
+        version of the app depend on the third-party SDKs included in that
+        version.
+      </p>
+
+      <p>
+        For Google's privacy information, visit:
+      </p>
+
+      <p>
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Google Privacy Policy
+        </a>
+      </p>
+
+    </section>
+
+
+    <!-- 9 -->
+    <section class="card">
+
+      <h2>9. Third-Party Services and SDKs</h2>
+
+      <p>
+        The application may use third-party software libraries and services
+        to provide features, functionality, security, analytics,
+        notifications, advertising, or other technical capabilities.
+      </p>
+
+      <p>
+        Examples may include services used for prayer-time calculations,
+        advertising, application information, notifications, or device
+        functionality.
+      </p>
+
+      <p>
+        Third-party providers may process information in accordance with
+        their own privacy policies and terms.
+      </p>
+
+    </section>
+
+
+    <!-- 10 -->
+    <section class="card">
+
+      <h2>10. Information We Do Not Intentionally Require</h2>
+
+      <div class="highlight">
+
+        <p>
+          Deen Pulse does not require users to create an account simply to
+          access its core functionality.
+        </p>
+
+        <p>
+          We do not intentionally require users to provide a personal name,
+          telephone number, postal address, or password to use the core
+          application.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- 11 -->
+    <section class="card">
+
+      <h2>11. Children's Privacy</h2>
+
+      <p>
+        Deen Pulse is intended as a general-audience Islamic educational
+        and utility application.
+      </p>
+
+      <p>
+        We do not knowingly request personal information directly from
+        children through the core application.
+      </p>
+
+      <p>
+        Where third-party services or advertising are used, their own
+        child-safety, privacy, and age-related policies may also apply.
+      </p>
+
+    </section>
+
+
+    <!-- 12 -->
+    <section class="card">
+
+      <h2>12. Data Security</h2>
+
+      <p>
+        We take reasonable measures to protect information handled by the
+        application.
+      </p>
+
+      <p>
+        However, no method of electronic storage, processing, or transmission
+        can be guaranteed to be completely secure.
+      </p>
+
+      <p>
+        Users should keep their device, operating system, and application
+        software updated.
+      </p>
+
+    </section>
+
+
+    <!-- 13 -->
+    <section class="card">
+
+      <h2>13. Data Retention and Deletion</h2>
+
+      <p>
+        Information stored locally by the application generally remains on
+        the user's device until the user removes it, clears the app's data,
+        or uninstalls the application.
+      </p>
+
+      <p>
+        Information processed by third-party services may be retained in
+        accordance with the respective service provider's policies.
+      </p>
+
+      <p>
+        If you have a privacy-related question or request, you may contact
+        us at:
+      </p>
+
+      <p>
+        <a href="mailto:windoflash@gmail.com">
+          windoflash@gmail.com
+        </a>
+      </p>
+
+    </section>
+
+
+    <!-- 14 -->
+    <section class="card">
+
+      <h2>14. External Websites and Services</h2>
+
+      <p>
+        The application or this Privacy Policy may contain links to
+        third-party websites or services.
+      </p>
+
+      <p>
+        We are not responsible for the privacy practices, security, or
+        content of external websites that are not operated by Windo Flash.
+      </p>
+
+      <p>
+        We recommend reviewing the applicable privacy policy of any
+        third-party service you access.
+      </p>
+
+    </section>
+
+
+    <!-- 15 -->
+    <section class="card">
+
+      <h2>15. Changes to This Privacy Policy</h2>
+
+      <p>
+        We may update this Privacy Policy from time to time to reflect
+        changes to the application, features, third-party services,
+        applicable laws, or our privacy practices.
+      </p>
+
+      <p>
+        When changes are made, the revised policy will be published on this
+        page and the "Last updated" date will be updated.
+      </p>
+
+    </section>
+
+
+    <!-- 16 -->
+    <section class="card">
+
+      <h2>16. Contact Us</h2>
+
+      <p>
+        If you have questions, concerns, or requests regarding this Privacy
+        Policy or the privacy practices of Deen Pulse, please contact us.
+      </p>
+
+      <p>
+        <strong>Developer:</strong>
+        Windo Flash
+      </p>
+
+      <p>
+        <strong>App:</strong>
+        Islamic Quiz 2026 – Deen Pulse
+      </p>
+
+      <p>
+        <strong>Package:</strong>
+        com.windoflash.ramadan
+      </p>
+
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:windoflash@gmail.com">
+          windoflash@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <strong>Developer Address:</strong><br />
+        269-A, Painat House, Panangattoor, Tanur, Panangattoor Road<br />
+        Malappuram - 676302<br />
+        India (IN)
+      </p>
+
+    </section>
+
+
+    <!-- 17 -->
+    <section class="card">
+
+      <h2>17. Acknowledgement</h2>
+
+      <p>
+        By using Islamic Quiz 2026 – Deen Pulse, you acknowledge that you
+        have read and understood this Privacy Policy.
+      </p>
+
+      <p>
+        Our goal is to provide useful Islamic educational and utility
+        features while handling user information responsibly and
+        transparently.
+      </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+
+      © 2026 <strong>Windo Flash</strong>. All rights reserved.
+
+      <br />
+
+      Islamic Quiz 2026 – Deen Pulse
+
+    </div>
+
+  </main>
+
+</body>
+</html>
