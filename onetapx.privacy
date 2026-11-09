@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - OneTapX - Sensi Pro</title>
+  <meta name="description" content="Privacy Policy for OneTapX - Sensi Pro, developed by Windo Flash." />
+  <style>
+    :root {
+      --background: #070a12;
+      --card: #101522;
+      --card-light: #171d2c;
+      --accent: #ff3b4f;
+      --accent-dark: #c92338;
+      --text: #f5f6fa;
+      --muted: #aab2c3;
+      --border: rgba(255, 59, 79, 0.22);
+      --link: #ff6676;
+    }
 
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 70px;
+    }
+
+    .hero {
+      background:
+        radial-gradient(circle at top center, rgba(255, 59, 79, 0.14), transparent 45%),
+        linear-gradient(180deg, #121827 0%, #0b101b 100%);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 36px 28px;
+      text-align: center;
+      margin-bottom: 22px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    .logo {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 18px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 59, 79, 0.12);
+      border: 1px solid rgba(255, 59, 79, 0.3);
+      font-size: 34px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0 auto;
+      color: var(--muted);
+      max-width: 680px;
+      font-size: 16px;
+    }
+
+    .updated {
+      margin-top: 16px;
+      color: #8993a6;
+      font-size: 13px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      margin-top: 18px;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-size: 23px;
+      margin: 0 0 12px;
+    }
+
+    h3 {
+      color: #ffffff;
+      font-size: 17px;
+      margin: 22px 0 8px;
+    }
+
+    p { margin: 0 0 14px; color: #dce1eb; }
+
+    ul {
+      margin: 8px 0 16px 22px;
+      padding: 0;
+      color: #dce1eb;
+    }
+
+    li { margin-bottom: 8px; }
+    strong { color: #ffffff; }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .highlight {
+      background: var(--card-light);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 18px 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding-top: 26px;
+      color: #778094;
+      font-size: 13px;
+    }
+
+    .footer strong { color: var(--accent); }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 20px, 920px);
+        padding-top: 24px;
+      }
+
+      .hero {
+        padding: 28px 20px;
+        border-radius: 20px;
+      }
+
+      .card {
+        padding: 22px 18px;
+        border-radius: 18px;
+      }
+
+      h2 { font-size: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <div class="logo">🎯</div>
+      <h1>OneTapX - Sensi Pro</h1>
+      <p class="subtitle">Privacy Policy for <strong>OneTapX- Sensi Pro</strong></p>
+      <div class="updated">
+        Effective Date: 09 November 2026<br />
+        Last Updated: 09 November 2026
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Independent Utility Disclaimer</h2>
+      <p><strong>OneTapX- Sensi Pro</strong> is an independent gaming companion and sensitivity optimization utility developed by <strong>Windo Flash</strong>. It is NOT affiliated with, endorsed by, sponsored by, or associated with any other famous games, app developers, publishers, or digital app distribution platforms.</p>
+      <p>This application is strictly an independent educational utility providing custom HUD layouts, sensitivity calculations, aiming reflex practice tools, and tactical gaming tips. All third-party trademarks, product names, logos, and brands belong exclusively to their respective copyright and trademark owners.</p>
+    </section>
+
+    <section class="card">
+      <h2>1. Overview &amp; Data Philosophy</h2>
+      <p><strong>OneTapX- Sensi Pro</strong> ("we", "our", or "the application"), developed by <strong>Windo Flash</strong>, is designed as an offline-first companion tool, HUD guide, and sensitivity configuration utility for competitive mobile gamers. We believe user privacy is paramount. The application is built to maximize local on-device operation, minimizing external data transmission.</p>
+    </section>
+
+    <section class="card">
+      <h2>2. Information We Do NOT Collect</h2>
+      <p>We do not collect personally identifiable information (PII) such as:</p>
+      <ul>
+        <li>Legal names or usernames</li>
+        <li>Email addresses (unless you contact us directly for support)</li>
+        <li>Phone numbers or physical addresses</li>
+        <li>Device location / GPS data</li>
+        <li>Contact lists, photo libraries, or media files</li>
+        <li>Camera or microphone recordings</li>
+        <li>Advertising IDs (GAID / IDFA) or device serial numbers</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. Local On-Device Data Storage</h2>
+      <p>All your custom configurations and personal gameplay records are saved locally inside your device's sandboxed storage (Hive &amp; SharedPreferences):</p>
+      <ul>
+        <li><strong>Custom Sensitivity Profiles:</strong> Saved locally on your device.</li>
+        <li><strong>HUD Code Saver:</strong> Your custom HUD layout codes and notes are stored strictly in local memory.</li>
+        <li><strong>Favorite Presets &amp; Tacticals:</strong> Marked preferences remain local.</li>
+        <li><strong>Tactical Aim Trainer Scores:</strong> Reaction times, accuracy metrics, and high scores stay on your device.</li>
+        <li><strong>Technical Specs Input:</strong> When using the Smart Sensi Generator or DPI Guide, technical parameters (brand, RAM, refresh rate) are processed purely in memory to compute recommendations and are never sent to external servers.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Cloud Database &amp; Live Services</h2>
+      <p>The application connects to cloud database infrastructure exclusively to stream public community content:</p>
+      <ul>
+        <li><strong>News &amp; Tactical Updates (Read-Only):</strong> Delivers public patch notes, balance adjustments, and weapon guides.</li>
+        <li><strong>Reward Drops (Read-Only):</strong> Delivers active community reward codes provided free of charge for community members.</li>
+        <li><strong>Anonymous Copy Statistics:</strong> When you tap "Copy Code", an aggregate numeric counter (<code>copyCount</code>) increments on the cloud server to display community activity. No personal user identification, device ID, IP address, user account, or name is collected, stored, or linked to this counter.</li>
+        <li><strong>No User Account Sync:</strong> Your saved profiles, HUD codes, and aim trainer scores are NOT uploaded to cloud servers.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Reward Drops &amp; Promotional Codes</h2>
+      <ul>
+        <li><strong>Free Community Rewards:</strong> Reward Drops are voluntary, occasional promotional gifts provided free of charge.</li>
+        <li><strong>No Real-Money Gambling:</strong> The application does not conduct lotteries, sweepstakes, betting, wagering, or real-money gambling. No deposit, payment, or in-app purchase is required or accepted.</li>
+        <li><strong>External Redemption:</strong> All promotional codes are redeemed externally on official digital distribution platforms according to their standard terms.</li>
+        <li><strong>Non-Affiliation:</strong> OneTapX- Sensi Pro and Windo Flash are independent and are not affiliated with or endorsed by any third-party app stores or digital platforms.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. Advertising &amp; Behavioral Tracking Policy</h2>
+      <div class="highlight">
+        <strong>OneTapX- Sensi Pro does NOT integrate third-party ad-monetization networks or analytics tracking SDKs.</strong>
+      </div>
+      <p>The application does not serve banner ads, interstitial pop-ups, rewarded videos, or behavioral advertising trackers. Your gameplay and configuration experience remains entirely ad-free.</p>
+    </section>
+
+    <section class="card">
+      <h2>7. User Data Control &amp; Deletion</h2>
+      <p>You maintain complete control and ownership over your data:</p>
+      <ul>
+        <li><strong>Instant Local Erasure:</strong> You can permanently delete all local databases at any moment by navigating in the app to: <strong>Settings &gt; Data &amp; Storage &gt; Clear All Local Data</strong>.</li>
+        <li><strong>Uninstalling:</strong> Removing the app from your device automatically wipes all local sandboxed storage files.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>8. Children's Privacy (COPPA &amp; Families Policy)</h2>
+      <p><strong>OneTapX- Sensi Pro</strong> is intended for general audiences (aged 13 and older). We do not knowingly collect, solicit, or maintain personal information from children under the age of 13 (or under 16 in the European Economic Area). Because the application collects zero personally identifiable information, no child data is ever gathered, processed, or shared.</p>
+    </section>
+
+    <section class="card">
+      <h2>9. Contact Information</h2>
+      <p>If you have questions, inquiries, or feedback regarding this Privacy Policy or our data practices, please contact us:</p>
+      <p><strong>Developer:</strong> Windo Flash</p>
+      <p><strong>Support &amp; Privacy Email:</strong> <a href="mailto:windoflash@gmail.com">windoflash@gmail.com</a></p>
+    </section>
+
+    <div class="footer">
+      © 2026 <strong>Windo Flash</strong>. All rights reserved.<br />
+      OneTapX- Sensi Pro
+    </div>
+  </main>
+</body>
+</html>
